@@ -12,6 +12,8 @@ body {
 .navbar {
     display: flex;
     flex-direction: column;
+    background-color: #b0cdf4;
+    padding: 20px;
 }
 
 .nav-links {
@@ -31,6 +33,24 @@ body {
 
 .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bio-hero {
+    padding: 20px;
+    background-color: #f3efa7;
+}
+
+.card-grid {
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+} 
+
+footer {
+    padding: 20px;
 }
 
 @media (min-width: 768px) {
