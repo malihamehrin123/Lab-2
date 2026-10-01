@@ -25,5 +25,30 @@ body {
 }
 
 .card {
-    flex-basis: 100%
+    flex-basis: 100%;
+    transition: box-shawdow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+.navbar {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-links {
+    flex-direction: row;
+}
+
+.card-grid {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    flex-basis: 30%;
+}
 }
