@@ -19,6 +19,13 @@ body {
 .nav-links {
     display: flex;
     flex-direction: column;
+    list-style: none;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:black;
 }
 
 .card-grid {
@@ -29,6 +36,10 @@ body {
 .card {
     flex-basis: 100%;
     transition: box-shawdow 0.3s ease;
+    padding: 20px;
+    background-colour; #f0f7ff;
+    boder; 1px solid #ccc;
+
 }
 
 .card:hover {
